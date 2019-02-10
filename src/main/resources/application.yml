@@ -1,0 +1,12 @@
+server:
+    port: 8081
+spring:
+    thymeleaf:
+        cache: false
+        check-template: true
+        encoding: utf-8
+        enabled: true
+        prefix: classpath:/templates/
+        suffix: .html
+        mode: LEGACYHTML5
+        content-type: text/html
