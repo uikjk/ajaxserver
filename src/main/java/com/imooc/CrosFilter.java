@@ -13,6 +13,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import ch.qos.logback.core.net.SyslogOutputStream;
 import org.apache.tomcat.util.buf.StringUtils;
 
 public class CrosFilter implements Filter {
@@ -20,7 +21,7 @@ public class CrosFilter implements Filter {
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
 		// TODO Auto-generated method stub
-		Map map = new HashMap();
+		System.out.println("ok");
 	}
 
 	@Override
