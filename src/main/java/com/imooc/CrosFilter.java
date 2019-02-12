@@ -22,7 +22,7 @@ public class CrosFilter implements Filter {
 	public void init(FilterConfig filterConfig) throws ServletException {
 		// TODO Auto-generated method stub
 		System.out.println("ok");
-		System.out.println("1");
+		System.out.println("12");
 	}
 
 	@Override
