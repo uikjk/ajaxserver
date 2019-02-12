@@ -9,6 +9,6 @@ public class JsonpAdvice extends AbstractJsonpResponseBodyAdvice {
 	public JsonpAdvice() {
 		// TODO Auto-generated constructor stub
 		super("callback2");
-		int i = 1;
+		
 	}
 }
